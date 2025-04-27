@@ -1,0 +1,119 @@
+.quiz-container {
+    background: #ffffff;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .question-section p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .options-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .option-button {
+    padding: 12px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .option-button.selected {
+    border-color: #4caf50;
+    background-color: #d0f0d0;
+  }
+  
+  .feedback-section p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .feedback-section p.correct {
+    color: green;
+  }
+  
+  .feedback-section p.incorrect {
+    color: red;
+  }
+  
+  .next-button {
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .next-button:hover {
+    background-color: #004494;
+  }
+  
+  .score-section {
+    text-align: center;
+  }
+  
+  .score-section h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .score-section button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .score-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Progress Bar */
+  .progress-bar-container {
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 0.4s ease-in-out;
+  }
